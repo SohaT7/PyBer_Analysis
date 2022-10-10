@@ -1,7 +1,28 @@
-# The PyBer Ride-Sharing Data Analysis
+# The PyBer Ride-Sharing Analysis
+## Table of Contents
+- [Overview of the Analysis](#overview-of-the-analysis)
+    - [Purpose](#purpose)
+    - [About the Dataset](#about-the-dataset)
+    - [Tools Used](#tools-used)
+    - [Description](#description)
+- [Results](#results)
+- [Summary](#summary)
+- [Contact Information](#contact-information)
 
 ## Overview of the Analysis
-This project analyzes and visualizes ride-sharing data, using Python, Pandas, and Matplotlib, in order to explore and visually represent the relationship between the type of city and drivers and riders, as well as the relationship between percentage of total fares, drivers and riders, by the type of city. The purpose of the project is to improve accessibility while determining the affordability patterns for the ride-sharing services provided by PyBer in under-served neighbourhoods especially. The purpose of the new analysis [PyBer_Challenge](https://github.com/SohaT7/PyBer_Analysis/blob/main/PyBer_Challenge.ipynb) is to determine how the total weekly fares differ by city type in order to come up with more effective strategies when it comes to addressing those disparities. 
+### Purpose:
+The purpose of the analysis is to determine how the total weekly fares differ by city type in order to come up with more effective strategies when it comes to addressing those disparities. 
+
+### About the Dataset:
+The dataset includes the following CSV files:
+ - [City Data](https://github.com/SohaT7/PyBer_Analysis/blob/main/Resources/city_data.csv) - 120 records containing the fields: City, Driver Count, and Type
+ - [Ride Data](https://github.com/SohaT7/PyBer_Analysis/blob/main/Resources/ride_data.csv) - 2375 records containing the fields: City, Date, Fare, Ride ID
+
+### Tools Used:
+ - Python (Pandas and Matplotlib libraries)
+
+### Description:
+A summary DataFrame containing ride-sharing data by city type, is created. This is done by first calculating the total number of rides, drivers, and fares for each city type, followed by average fare per ride and average fare per driver for each city type. This is then added to a new DataFrame, and the columns formatted. Next, a multiple-line graph is created, which visualizes the total weekly fares for each city type. 
 
 ## Results
 ![PyBer Summary DataFrame](https://github.com/SohaT7/PyBer_Analysis/blob/main/analysis/PyBer%20Summary%20DataFrame.png)
@@ -20,3 +41,6 @@ The following are some recommendations in order to address the disparities in th
 - The Average Fare per Ride in rural cities can be lowered when more rides are being booked and used. Total rides can be increased by hiring more drivers (or better marketing, etc). Hiring more drivers will also lower the Average Fare per Driver in rural cities. 
 - The Total Fares (and Total Rides) in the rural (and suburban) cities can be increased by hiring more drivers (for that might be a limiting factor in why more people are unable to take rides in these cities).
 - The Total Drivers in urban cities (2,405) seem to exceed the Total Rides in urban cities (1,625), which points to how there might be an excess of drivers, and the reason why they are not getting any (or as many) rides is because no one needs more rides. This aspect needs to be looked at in depth to capture the ground reality some more.
+
+## Contact Information
+Email: st.sohatariq@gmail.com
